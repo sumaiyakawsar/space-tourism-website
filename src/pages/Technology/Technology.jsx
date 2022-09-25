@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import { technology } from "../../data/data";
 
@@ -10,7 +11,7 @@ const Technology = () => {
     "w-12 h-12 text-white rounded-[50%] gap-2 border border-white/[25%]  transition-colors duration-300 ease-linear hover:border-white";
 
   return (
-    <main className=" bg-tech-mobile md:bg-tech-tablet lg:bg-tech-desktop bg-no-repeat bg-cover bg-center w-full lg:h-screen">
+    <main className=" bg-tech-mobile md:bg-tech-tablet lg:bg-tech-desktop bg-no-repeat bg-cover bg-center w-full ">
       <Header />
       <div className="container mx-auto my-0 w-full lg:w-4/5 ">
         <h5 className="font-Barlow_C text-center sm:text-left uppercase text-base leading-[1.2rem] tracking-[0.16875rem] lg:text-[1.75rem] lg:leading-8 lg:tracking-[4.75px] text-white py-4">
@@ -64,6 +65,8 @@ const Technology = () => {
           </div>
         </div>
       </div>
+
+      <Footer/>
     </main>
   );
 };

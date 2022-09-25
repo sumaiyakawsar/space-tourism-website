@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
 import { crew } from "../../data/data";
 
@@ -62,6 +63,7 @@ const Crew = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </main>
   );
 };

@@ -1,11 +1,12 @@
 import React from "react";
+import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
-
+ 
 const Homepage = () => {
   return (
     <main className=" bg-home-mobile md:bg-home-tablet lg:bg-home-desktop bg-no-repeat bg-cover bg-center w-full h-screen ">
-      <Header/>
-      <div className="container mx-auto my-0  h-4/5 px-6  flex flex-col gap-20 items-center lg:items-end lg:flex-row lg:justify-around">
+      <Header />
+      <div className="container mx-auto my-0   h-3/4 px-6  flex flex-col gap-20 items-center lg:items-end lg:flex-row lg:justify-around">
         <div className="flex flex-col items-center lg:items-start gap-4 max-w-[28.125rem]">
           <h5 className="font-Barlow_C uppercase text-base leading-[1.2rem] tracking-[2.7px]  lg:text-[28px] lg:leading-8 lg:tracking-[4.75px] text-[#D0D6f9] ">
             So, you want to travel to
@@ -30,6 +31,8 @@ const Homepage = () => {
           </h4>
         </div>
       </div>
+         <Footer/>
+  
     </main>
   );
 };

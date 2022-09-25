@@ -2,7 +2,7 @@
   "name": "space-tourism-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sumaiyakawsar.github.io/space-tourism-website/home",
+  "homepage": "https://sumaiyakawsar.github.io/space-tourism-website/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

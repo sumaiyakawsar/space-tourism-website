@@ -15,7 +15,7 @@ const Header = () => {
   const normalLink = "py-4 border-0  hover:border-b hover:border-b-white/50";
 
   const MenuTitles = [
-    { title: "Home", src: "/home" },
+    { title: "Home", src: "/" },
     { title: "Destination", src: "/destination" },
     { title: "Crew", src: "/crew" },
     { title: "Technology", src: "/technology" },
@@ -25,7 +25,7 @@ const Header = () => {
     <header className="w-full text-white">
       <div className="flex py-4 justify-between items-center">
         <Link
-          to="/home"
+          to="/"
           className="ml-6 md:ml-[55px] w-12 h-12 min-h-fit min-w-fit"
         >
           <img src={Logo} alt="logo" />

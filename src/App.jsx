@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="font-normal select-none">
       <Routes>
-        <Route exact path="/space-tourism-website" element={<Homepage />} />
+        <Route exact path="/space-tourism-website/home" element={<Homepage />} />
         <Route
           path="/space-tourism-website/destination"
           element={<Destination />}

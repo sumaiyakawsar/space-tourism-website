@@ -15,17 +15,17 @@ const Header = () => {
   const normalLink = "py-4 border-0  hover:border-b hover:border-b-white/50";
 
   const MenuTitles = [
-    { title: "Home", src: "/" },
-    { title: "Destination", src: "/destination" },
-    { title: "Crew", src: "/crew" },
-    { title: "Technology", src: "/technology" },
+    { title: "Home", src: "/space-tourism-website" },
+    { title: "Destination", src: "/space-tourism-website/destination" },
+    { title: "Crew", src: "/space-tourism-website/crew" },
+    { title: "Technology", src: "/space-tourism-website/technology" },
   ];
 
   return (
     <header className="w-full text-white">
       <div className="flex py-4 justify-between items-center">
         <Link
-          to="/"
+          to="/space-tourism-website"
           className="ml-6 md:ml-[55px] w-12 h-12 min-h-fit min-w-fit"
         >
           <img src={Logo} alt="logo" />
@@ -44,7 +44,8 @@ const Header = () => {
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
                 }
-                exact strict
+                exact
+                strict
               >
                 <span className="font-bold hidden lg:inline lg:mr-3">
                   0{id}

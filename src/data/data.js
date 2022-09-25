@@ -1,25 +1,17 @@
-import MOONPNG from "../assets/destination/image-moon.png";
 import MOONWEBP from "../assets/destination/image-moon.webp";
 
-import MARSPNG from "../assets/destination/image-mars.png";
 import MARSWEBP from "../assets/destination/image-mars.webp";
 
-import EUROPAPNG from "../assets/destination/image-europa.png";
 import EUROPAWEBP from "../assets/destination/image-europa.webp";
 
-import TITANPNG from "../assets/destination/image-titan.png";
 import TITANWEBP from "../assets/destination/image-titan.webp";
 
-import DHPNG from "../assets/crew/image-douglas-hurley.png";
 import DHWEBP from "../assets/crew/image-douglas-hurley.webp";
 
-import MSPNG from "../assets/crew/image-mark-shuttleworth.png";
 import MSWEBP from "../assets/crew/image-mark-shuttleworth.webp";
 
-import VGPNG from "../assets/crew/image-victor-glover.png";
 import VGWEBP from "../assets/crew/image-victor-glover.webp";
 
-import AAPNG from "../assets/crew/image-anousheh-ansari.png";
 import AAWEBP from "../assets/crew/image-anousheh-ansari.webp";
 
 import LVPORTRAIT from "../assets/technology/image-launch-vehicle-portrait.jpg";
@@ -35,7 +27,6 @@ export const destinations = [
   {
     name: "Moon",
     images: {
-      png: MOONPNG,
       webp: MOONWEBP,
     },
     description:
@@ -46,7 +37,6 @@ export const destinations = [
   {
     name: "Mars",
     images: {
-      png: MARSPNG,
       webp: MARSWEBP,
     },
     description:
@@ -57,7 +47,6 @@ export const destinations = [
   {
     name: "Europa",
     images: {
-      png: EUROPAPNG,
       webp: EUROPAWEBP,
     },
     description:
@@ -68,7 +57,6 @@ export const destinations = [
   {
     name: "Titan",
     images: {
-      png: TITANPNG,
       webp: TITANWEBP,
     },
     description:
@@ -82,7 +70,6 @@ export const crew = [
   {
     name: "Douglas Hurley",
     images: {
-      png: DHPNG,
       webp: DHWEBP,
     },
     role: "Commander",
@@ -91,7 +78,6 @@ export const crew = [
   {
     name: "Mark Shuttleworth",
     images: {
-      png: MSPNG,
       webp: MSWEBP,
     },
     role: "Mission Specialist",
@@ -100,7 +86,6 @@ export const crew = [
   {
     name: "Victor Glover",
     images: {
-      png: VGPNG,
       webp: VGWEBP,
     },
     role: "Pilot",
@@ -109,7 +94,6 @@ export const crew = [
   {
     name: "Anousheh Ansari",
     images: {
-      png: AAPNG,
       webp: AAWEBP,
     },
     role: "Flight Engineer",

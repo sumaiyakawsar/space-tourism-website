@@ -16,9 +16,13 @@ module.exports = {
         "crew-desktop": "url('../assets/crew/background-crew-desktop.jpg')",
         "crew-tablet": "url('../assets/crew/background-crew-tablet.jpg')",
         "crew-mobile": "url('../assets/crew/background-crew-mobile.jpg')",
-        "tech-desktop": "url('../assets/technology/background-technology-desktop.jpg')",
-        "tech-tablet": "url('../assets/technology/background-technology-tablet.jpg')",
-        "tech-mobile": "url('../assets/technology/background-technology-mobile.jpg')",
+        "tech-desktop":
+          "url('../assets/technology/background-technology-desktop.jpg')",
+        "tech-tablet":
+          "url('../assets/technology/background-technology-tablet.jpg')",
+        "tech-mobile":
+          "url('../assets/technology/background-technology-mobile.jpg')",
+        
       },
       fontFamily: {
         Barlow_C: "'Barlow Condensed', sans-serif",

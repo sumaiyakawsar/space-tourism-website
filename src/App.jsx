@@ -15,7 +15,7 @@ function App() {
         <Route path="/crew" element={<Crew />} />
         <Route path="/technology" element={<Technology />} />
 
-        <Route path="/" element={<Homepage />} />
+        <Route exact path="/" element={<Homepage />} />
       </Routes>
     </div>
   );

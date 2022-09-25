@@ -10,16 +10,16 @@ function App() {
   return (
     <div className="font-normal select-none">
       <Routes>
-        <Route path="/space-tourism-website" element={<Homepage />} />
+        <Route exact path="/space-tourism-website" element={<Homepage />} />
         <Route
-          exact
           path="/space-tourism-website/destination"
           element={<Destination />}
         />
-        <Route exact path="/space-tourism-website/crew" element={<Crew />} />
-        <Route exact path="/space-tourism-website/technology" element={<Technology />} />
-
-    
+        <Route path="/space-tourism-website/crew" element={<Crew />} />
+        <Route
+          path="/space-tourism-website/technology"
+          element={<Technology />}
+        />
       </Routes>
     </div>
   );

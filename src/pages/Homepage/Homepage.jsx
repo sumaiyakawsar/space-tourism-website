@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../../components/Footer/Footer";
 import Header from "../../components/Header/Header";
- 
+
 const Homepage = () => {
   return (
     <main className=" bg-home-mobile md:bg-home-tablet lg:bg-home-desktop bg-no-repeat bg-cover bg-center w-full h-screen ">
@@ -26,13 +26,12 @@ const Homepage = () => {
         </div>
 
         <div className="">
-          <h4 className="font-Bellafair uppercase text-[32px] bg-white flex items-center justify-center rounded-full w-[9.375rem] h-[9.375rem] transition-all duration-300 ease-linear  lg:w-[17.125rem] lg:h-[17.125rem] lg:hover:ring-[5.5rem] lg:hover:ring-white/10">
+          <h2 className="font-Bellafair uppercase text-[32px] bg-white flex items-center justify-center rounded-full w-[9.375rem] h-[9.375rem] transition-all duration-300 ease-linear  lg:w-[17.125rem] lg:h-[17.125rem] lg:hover:ring-[5.5rem] lg:hover:ring-white/10">
             Explore
-          </h4>
+          </h2>
         </div>
       </div>
-         <Footer/>
-  
+      <Footer />
     </main>
   );
 };

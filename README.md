@@ -1,5 +1,6 @@
 # Frontend Mentor - Space tourism website solution
 
+[![wakatime](https://wakatime.com/badge/github/sumaiyakawsar/space-tourism-website.svg)](https://wakatime.com/badge/github/sumaiyakawsar/space-tourism-website)
 
 <div align="center">
   <h3>

@@ -42,7 +42,7 @@ const Crew = () => {
               {crew.map(({ name }, id) => {
                 return (
                   <Link
-                    to={`space-tourism-website/crew`}
+                    to={`/space-tourism-website/crew`}
                     key={id + 1}
                     className={id === activeTab ? activeTabLink : normalTabLink}
                     // Change the active tab on click.

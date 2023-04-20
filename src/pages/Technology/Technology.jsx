@@ -24,7 +24,7 @@ const Technology = () => {
             {technology.map(({ name }, id) => {
               return (
                 <Link
-                  to="space-tourism-website/technology"
+                  to="/space-tourism-website/technology"
                   key={id + 1}
                   className={id === activeTab ? activeTabLink : normalTabLink}
                   // Change the active tab on click.

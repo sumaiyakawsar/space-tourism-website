@@ -38,7 +38,7 @@ const Destination = () => {
               {destinations.map(({ name }, id) => {
                 return (
                   <Link
-                    to="/destination"
+                    to="space-tourism-website/destination"
                     key={id}
                     className={id === activeTab ? activeTabLink : normalTabLink}
                     // Change the active tab on click.
